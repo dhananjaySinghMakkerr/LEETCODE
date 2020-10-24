@@ -40,8 +40,18 @@ public:
         }
         int r; int sum=0;
          r=p.top().first;
-        while(p.size()!=0)
-        {
-            //int sum=0;
-           
-            if(p.top().first==r)
+         while(p.size()!=0)
+        {
+            //int sum=0;
+           
+            if(p.top().first==r)
+            {
+            sum=sum+p.top().second->val;
+            }
+            p.pop();
+        }
+       //printf("%d ",p.top().first);
+    //cout << endl; 
+        return sum;
+    }
+};
