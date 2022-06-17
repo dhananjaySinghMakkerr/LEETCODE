@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C++](./solutions/42.%20Trapping%20Rain%20Water.cpp)|41 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C](./solutions/61.%20Rotate%20List.c)|4 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./solutions/62.%20Unique%20Paths.cpp)|0 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./solutions/63.%20Unique%20Paths%20II.cpp)|2 ms|
