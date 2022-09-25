@@ -11,6 +11,7 @@
 |96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./solutions/96.%20Unique%20Binary%20Search%20Trees.cpp)|0 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.cpp)|7 ms|
 |106|[ Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[C++](./solutions/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp)|67 ms|
+|110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[C++](./solutions/110.%20Balanced%20Binary%20Tree.cpp)|22 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.cpp)|396 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[C++](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cpp)|36 ms|
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cpp)|1012 ms|
