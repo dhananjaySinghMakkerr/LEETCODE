@@ -23,11 +23,11 @@ public:
         }
         long long int num=0;
         int s=0;
-        cout<<setC<<"\n";
+       // cout<<setC<<"\n";
         while(!indexes.empty()&&s<setC)
         {
             int ind=indexes.top();
-            cout<<ind<<"\n";
+            //cout<<ind<<"\n";
             indexes.pop();
             int temp=1;
             temp=temp<<ind;
@@ -37,7 +37,7 @@ public:
         long long int n3=num;
         long long int in=0;
         cout<<n3<<" ";
-        cout<<"->"<<s;
+        //cout<<"->"<<s;
         while(s<setC&&n3)
         {
             while(n3)
@@ -53,7 +53,7 @@ public:
                 {
                     int temp=1;
                     temp=temp<<in;
-                    cout<<num<<"->> ";
+                    //cout<<num<<"->> ";
                     num=num|temp;
                     n3=n3>>1;
                     s++;
@@ -69,7 +69,7 @@ public:
             in++;
             s++;
         }
-        cout<<num<<" ";
+        //cout<<num<<" ";
         return num;
     }
 };
