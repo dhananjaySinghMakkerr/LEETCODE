@@ -1,16 +1,10 @@
-class Solution {
-public:
-    bool checkIfPangram(string sentence) {
-        int* arr=new int[26];
-        for(int i=0;i<26;i++)
-            arr[i]=0;
-        for(auto x:sentence)
-        {
-            arr[x-'a']++;
-        }
-        for(int i=0;i<26;i++)
-            if(!arr[i])
-                return false;
-        return true;
-    }
-};
+class Solution:
+    def checkIfPangram(self, sentence: str) -> bool:
+        l=[0]*26
+        for x in sentence:
+            l[ord(x)-ord('a')]+=1
+        for x in range(0,26):
+            if l[x]==0:
+                return False
+        return True
+            
