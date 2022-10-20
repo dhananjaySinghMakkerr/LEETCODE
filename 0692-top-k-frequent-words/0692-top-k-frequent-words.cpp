@@ -12,17 +12,10 @@ public:
         {
           freq[x]++;
         }
-        priority_queue<pair<int,string>> q;
-        for(auto x:freq)
-            q.push({x.second,x.first});
         vector<pair<int,string>> sol;
+         for(auto x:freq)
+            sol.push_back({x.second,x.first});
         vector<string> res;
-        int c=k;
-        while(!q.empty())
-        {
-            sol.push_back({q.top()});
-            q.pop();
-        }
         sort(sol.begin(),sol.end(),cmp);
         for(int i=0;i<k;i++)
            res.push_back(sol[i].second);
