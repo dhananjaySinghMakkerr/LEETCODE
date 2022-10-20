@@ -37,8 +37,7 @@ public:
         m[1000]='M';
         string res="";
         retNum(num,1,res,m);
-        cout<<res;
+        //cout<<res;
         return res;
-        
     }
 };
