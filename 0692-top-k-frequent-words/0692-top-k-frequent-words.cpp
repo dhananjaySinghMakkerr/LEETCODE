@@ -24,10 +24,6 @@ public:
             q.pop();
         }
         sort(sol.begin(),sol.end(),cmp);
-        for(auto x:sol)
-        {
-            cout<<x.first<<" "<<x.second<<"\n";
-        }
         for(int i=0;i<k;i++)
            res.push_back(sol[i].second);
         return res;
