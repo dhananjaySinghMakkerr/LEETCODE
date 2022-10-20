@@ -6,14 +6,10 @@ public:
             return;
         retNum(num/10,mul*10,ans,m);
         if(num%10==4)
-        {
             ans=ans+m[mul]+m[5*mul];
-        }
         if(num%10>=1&&num%10<4)
-        {
             for(int i=0;i<num%10;i++)
                 ans+=m[1*mul];
-        }
         if(num%10>=5&&num%10<9)
         {
             ans+=m[5*mul];
@@ -21,10 +17,7 @@ public:
                 ans+=m[mul];
         }
         else if(num%10==9)
-        {
             ans=ans+m[mul]+m[10*mul];
-        }
-        
     }
     string intToRoman(int num) {
         unordered_map<int,char> m;
