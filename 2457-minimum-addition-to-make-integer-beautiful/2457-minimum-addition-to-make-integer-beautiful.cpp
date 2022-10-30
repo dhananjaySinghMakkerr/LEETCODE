@@ -3,8 +3,8 @@ public:
     long long int digS(long long n)
     {
         long long int temp=n;
-        long long int dig{0},sum{0};
-        while(temp)
+        long long int dig,sum{0};
+        while(temp!=0)
         {
             dig=temp%10;
             sum+=dig;
@@ -17,12 +17,13 @@ public:
             return 0;
         long long int count=10;
         long long int temp=n;
+        cout<<digS(n);
         while(digS(temp)>target)
         {
-            cout<<temp<<" "<<digS(temp)<<endl;
+            cout<<digS(temp)<<" \n";
             long long int mod=n%count;
             temp=n+count-mod;
-            count=count*10;
+            count*=10;
         }
         return temp-n;
     }
